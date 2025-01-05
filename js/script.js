@@ -32,7 +32,7 @@ const playAudio = () => {
 // Play audio after 3 seconds
 setTimeout(() => {
     playAudio();
-}, 3000);
+}, 3);
 
 // Also play on click anywhere in the document
 document.addEventListener('click', () => {
